@@ -23,11 +23,17 @@ export const CustomFont: React.FC<{ site: types.Site }> = ({ site }) => {
 
         <style>{`
           .notion.notion-app {
+            font-family: Roboto;
+          }
+        `}</style>
+
+        {/* <style>{`
+          .notion.notion-app {
             font-family: ${cssFontFamilies}, -apple-system, BlinkMacSystemFont,
               'Segoe UI', Helvetica, 'Apple Color Emoji', Arial, sans-serif,
               'Segoe UI Emoji', 'Segoe UI Symbol';
           }
-        `}</style>
+        `}</style> */}
       </Head>
     </>
   )
